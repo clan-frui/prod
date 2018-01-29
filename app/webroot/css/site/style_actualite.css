@@ -1,0 +1,25 @@
+a.underlineOff{
+    text-decoration: none;
+}
+.allActus{
+    margin-bottom: 30px;
+    height: 400px;
+    width: 440px;
+}
+.allActus img{
+    margin-left:-15px;
+    width: 411px;
+    height: 231px;
+}
+.div-pagination{
+    position: absolute;
+    left: 2%;
+    top: 90%;
+}
+@media only screen and (max-width: 1367px){
+    .div-pagination{
+        position: fixed;
+        left: 6%;
+        top: 92%;
+    }
+}
