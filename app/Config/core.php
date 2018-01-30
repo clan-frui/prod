@@ -24,7 +24,7 @@
 /**
  * CakePHP Debug Level:
  *
- * Production Mode:
+ * Production :
  * 	0: No error messages, errors, or warnings shown. Flash messages redirect.
  *
  * Development Mode:
@@ -277,7 +277,7 @@
  * Uncomment this line and correct your server timezone to fix
  * any date & time related errors.
  */
-	//date_default_timezone_set('UTC');
+	date_default_timezone_set('UTC');
 
 /**
  * `Config.timezone` is available in which you can set users' timezone string.
