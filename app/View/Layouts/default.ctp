@@ -64,7 +64,7 @@
     <div style="padding-top: 50px;margin-bottom: 50px;">
         <?php echo $this->element('sql_dump'); ?>
     </div>
-    <?php //echo $this->element('footer'); ?>
+    <?php echo $this->element('footer'); ?>
 </body>
     <?php
         echo "<!--[if lt IE 9]>";
